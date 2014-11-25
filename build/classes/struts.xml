@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+  <constant name="struts.devMode" value="true"/>
+	  <package  name="default" namespace="/"  extends="struts-default"> 
+		  
+		  <global-results>
+			<result name="error">/error.jsp</result> 
+		  </global-results>
+		
+		  <global-exception-mappings>
+			<exception-mapping result="error" exception="java.lang.Exception"></exception-mapping>
+  		  </global-exception-mappings>  
+		  
+		  <action name="FacultyHomepage">
+		  	<result name="success">/facultyhomepage.jsp</result>
+		  	<result name="error">/error.jsp</result>
+		  </action> 
+		  
+		   <action name="Logout"> 
+		  	<result name="success">/index.jsp</result> 
+		  	<result name="error">/error.jsp</result> 
+		  </action>
+		  
+		  <action name="FacultyLogin"> 
+		  	<result name="success">/facultylogin.jsp</result>
+		  	<result name="error">/error.jsp</result>
+	  	  </action>  
+	  	  
+	  	  <action name="FacultyLoginAction" class="com.igate.Action.LearningAction" method="isFacultyExists">
+	  	  	<result name="success">/facultyhomepage.jsp</result> 
+	  	  	<result name="error">/error.jsp</result>
+	  	  </action>
+	  	  
+	  	  <action name="FacultyHomeAction">
+	  	  	<result name="success">/facultyresult.jsp</result> 
+	  	  	<result name="error">/error.jsp</result>
+	  	  </action>
+	  	  
+	  	  <action name="StudentLogin">
+		  	<result name="success">/studentlogin.jsp</result> 
+		  	<result name="error">/error.jsp</result>
+		  </action>	 
+		  
+		  <action name="StudentLoginAction" class="com.igate.Action.LearningAction" method="isStudentExists">
+	  	  	<result name="success">/studenthomepage.jsp</result>  
+	  	  	<result name="error">/error.jsp</result> 
+	  	  </action>  
+	  	  
+	  	  <action name="StudentHomeAction" class="com.igate.Action.SearchAction" method="searchprogramdetails">
+	  	  	<result name="success">/programdetails.jsp</result> 
+	  	  	<result name="error">/error.jsp</result>
+	  	  </action>
+	  	  
+	  	  <action name="submitfeedback" class="com.igate.Action.SearchAction" method="insertfeedback"> 
+	  	    <result name="success">/submitted.jsp</result>  
+	  	    <result name="error">/error.jsp</result> 
+	  	  </action> 
+	  	  
+	  	  
+	  	   
+	  </package> 
+</struts> 
