@@ -29,7 +29,7 @@
 		  	<result name="error">/error.jsp</result>
 	  	  </action>  
 	  	  
-	  	  <action name="FacultyLoginAction" class="com.igate.Action.LearningAction" method="isFacultyExists">
+	  	  <action name="FacultyLoginAction" class="com.company.Action.LearningAction" method="isFacultyExists">
 	  	  	<result name="success">/facultyhomepage.jsp</result> 
 	  	  	<result name="error">/error.jsp</result>
 	  	  </action>
@@ -44,17 +44,17 @@
 		  	<result name="error">/error.jsp</result>
 		  </action>	 
 		  
-		  <action name="StudentLoginAction" class="com.igate.Action.LearningAction" method="isStudentExists">
+		  <action name="StudentLoginAction" class="com.company.Action.LearningAction" method="isStudentExists">
 	  	  	<result name="success">/studenthomepage.jsp</result>  
 	  	  	<result name="error">/error.jsp</result> 
 	  	  </action>  
 	  	  
-	  	  <action name="StudentHomeAction" class="com.igate.Action.SearchAction" method="searchprogramdetails">
+	  	  <action name="StudentHomeAction" class="com.company.Action.SearchAction" method="searchprogramdetails">
 	  	  	<result name="success">/programdetails.jsp</result> 
 	  	  	<result name="error">/error.jsp</result>
 	  	  </action>
 	  	  
-	  	  <action name="submitfeedback" class="com.igate.Action.SearchAction" method="insertfeedback"> 
+	  	  <action name="submitfeedback" class="com.company.Action.SearchAction" method="insertfeedback"> 
 	  	    <result name="success">/submitted.jsp</result>  
 	  	    <result name="error">/error.jsp</result> 
 	  	  </action> 
