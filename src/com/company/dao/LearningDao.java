@@ -12,7 +12,7 @@
 
 ----------------------------------------- */ 
 
-package com.igate.dao;
+package com.company.dao;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -20,10 +20,10 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-import com.igate.beans.Feedback;
-import com.igate.beans.LoginBean;
-import com.igate.beans.ProgramBean;
-import com.igate.exceptions.LearningException;
+import com.company.beans.Feedback;
+import com.company.beans.LoginBean;
+import com.company.beans.ProgramBean;
+import com.company.exceptions.LearningException; 
 
 public class LearningDao {
 	

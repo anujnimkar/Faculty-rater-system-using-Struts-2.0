@@ -1,4 +1,4 @@
-package com.igate.beans;
+package com.company.beans;
 
 public class LoginBean {
 	
@@ -9,7 +9,7 @@ public class LoginBean {
 	public String getUserid() {
 		return userid;
 	}
-	public void setUserid(String userid) {
+	public void setUserid(String userid) { 
 		this.userid = userid;
 	}
 	public String getUsername() {

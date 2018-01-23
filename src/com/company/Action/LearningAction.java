@@ -6,19 +6,19 @@
 
 *Description    : This is the page where faculty and student validity is verified
 
-*Created On     : 15-10-2012 
+*Created On     : 15-10-2012  
 
 -----------------------------------------    */ 
 
-package com.igate.Action;
+package com.company.Action;
 
 import java.util.Map;
 
 import org.apache.struts2.interceptor.SessionAware;
 
-import com.igate.beans.LoginBean;
-import com.igate.exceptions.LearningException;
-import com.igate.service.LearningService;
+import com.company.beans.LoginBean;
+import com.company.exceptions.LearningException;
+import com.company.service.LearningService;
 import com.opensymphony.xwork2.ActionSupport;
 import com.opensymphony.xwork2.ModelDriven; 
 

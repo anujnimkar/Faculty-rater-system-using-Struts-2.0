@@ -10,13 +10,13 @@
 
 -----------------------------------------    */ 
 
-package com.igate.service; 
+package com.company.service; 
 
-import com.igate.beans.Feedback;
-import com.igate.beans.LoginBean;
-import com.igate.beans.ProgramBean;
-import com.igate.dao.LearningDao;
-import com.igate.exceptions.LearningException;
+import com.company.beans.Feedback;
+import com.company.beans.LoginBean;
+import com.company.beans.ProgramBean;
+import com.company.dao.LearningDao;
+import com.company.exceptions.LearningException;   
 
 public class LearningService {
 	

@@ -1,4 +1,4 @@
-package com.igate.beans;
+package com.company.beans;
 
 public class Feedback {
 	
@@ -11,7 +11,7 @@ public class Feedback {
 	public void setProgramcode(String programcode) {
 		this.programcode = programcode;
 	}
-	public String getFacultyid() {
+	public String getFacultyid() { 
 		return facultyid;
 	}
 	public void setFacultyid(String facultyid) {

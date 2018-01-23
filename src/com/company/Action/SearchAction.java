@@ -1,6 +1,6 @@
 /*--  ---------------------------------------
 
-*Author         : Anuj S Nimkar
+*Author         : Anuj S Nimkar 
 
 *Page Name 		: SearchAction.java
 
@@ -10,16 +10,16 @@
 
 -----------------------------------------    */ 
 
-package com.igate.Action;  
+package com.company.Action;  
 
 import java.util.Map;
 
 import org.apache.struts2.interceptor.SessionAware;
 
-import com.igate.beans.Feedback;
-import com.igate.beans.ProgramBean;
-import com.igate.exceptions.LearningException;
-import com.igate.service.LearningService;
+import com.company.beans.Feedback;
+import com.company.beans.ProgramBean;
+import com.company.exceptions.LearningException;
+import com.company.service.LearningService;
 import com.opensymphony.xwork2.ActionSupport;
 import com.opensymphony.xwork2.ModelDriven;
 

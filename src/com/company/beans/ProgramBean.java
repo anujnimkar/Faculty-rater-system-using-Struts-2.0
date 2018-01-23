@@ -1,4 +1,4 @@
-package com.igate.beans;
+package com.company.beans;
 
 import java.sql.Date;
 
@@ -11,7 +11,7 @@ public class ProgramBean {
 	private Date enddate;
 	
 	
-	public String getProgramcode() {
+	public String getProgramcode() { 
 		return programcode;
 	}
 	public void setProgramcode(String programcode) {
